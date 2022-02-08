@@ -6,13 +6,13 @@
 /*   By: jodufour <jodufour@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/07 09:03:44 by jodufour          #+#    #+#             */
-/*   Updated: 2022/02/07 12:29:23 by jodufour         ###   ########.fr       */
+/*   Updated: 2022/02/08 04:28:34 by jodufour         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <cstdlib>
 #include <iostream>
-#include "class/Array.tpp"
+#include "class/Array.hpp"
 
 static void	__test0(void)
 {
