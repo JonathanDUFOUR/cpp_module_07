@@ -6,7 +6,7 @@
 /*   By: jodufour <jodufour@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/07 09:04:47 by jodufour          #+#    #+#             */
-/*   Updated: 2022/02/08 04:28:22 by jodufour         ###   ########.fr       */
+/*   Updated: 2022/02/08 05:01:44 by jodufour         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 
 # include <iostream>
 
-template <class T>
+template <typename T>
 class Array
 {
 private:
