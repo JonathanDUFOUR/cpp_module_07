@@ -6,7 +6,7 @@
 /*   By: jodufour <jodufour@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/07 09:04:47 by jodufour          #+#    #+#             */
-/*   Updated: 2022/02/25 00:32:42 by jodufour         ###   ########.fr       */
+/*   Updated: 2022/02/25 10:02:27 by jodufour         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -72,7 +72,7 @@ public:
 	}
 
 	// Accessors
-	unsigned int	size(void) const
+	uint	size(void) const
 	{
 		if (DEBUG)
 			std::cout
