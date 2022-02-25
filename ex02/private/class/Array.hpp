@@ -6,7 +6,7 @@
 /*   By: jodufour <jodufour@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/07 09:04:47 by jodufour          #+#    #+#             */
-/*   Updated: 2022/02/24 21:51:37 by jodufour         ###   ########.fr       */
+/*   Updated: 2022/02/25 00:32:42 by jodufour         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,7 +45,7 @@ public:
 	{
 		if (DEBUG)
 			std::cout
-			<< "Creating Array<T>"
+			<< "Creating Array"
 			<< std::endl;
 	}
 	Array<T>(Array<T> const &src) :
@@ -56,7 +56,7 @@ public:
 
 		if (DEBUG)
 			std::cout
-			<< "Creating Array<T>"
+			<< "Creating Array"
 			<< std::endl;
 		for (idx = 0; idx < _size; ++idx)
 			_array[idx] = src._array[idx];
@@ -66,7 +66,7 @@ public:
 	virtual ~Array<T>(void) {
 		if (DEBUG)
 			std::cout
-			<< "Destroying Array<T>"
+			<< "Destroying Array"
 			<< std::endl;
 		delete [] this->_array;
 	}
@@ -76,7 +76,7 @@ public:
 	{
 		if (DEBUG)
 			std::cout
-			<< "Calling Array<T>::size()"
+			<< "Calling Array::size()"
 			<< std::endl;
 		return this->_size;
 	}
@@ -88,7 +88,7 @@ public:
 
 		if (DEBUG)
 			std::cout
-			<< "Calling Array<T>::operator=()"
+			<< "Calling Array::operator=()"
 			<< std::endl;
 		if (this != &rhs)
 		{
