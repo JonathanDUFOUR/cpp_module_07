@@ -6,7 +6,7 @@
 /*   By: jodufour <jodufour@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/07 09:04:47 by jodufour          #+#    #+#             */
-/*   Updated: 2022/02/25 10:02:27 by jodufour         ###   ########.fr       */
+/*   Updated: 2022/03/02 20:57:05 by jodufour         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,8 @@
 # ifndef DEBUG
 #  define DEBUG 0
 # endif
+
+typedef unsigned int	uint;
 
 template <typename T>
 class Array
@@ -39,7 +41,7 @@ private:
 
 public:
 	// Constructors
-	Array<T>(uint const n = 0) :
+	Array<T>(uint const n = 0U) :
 		_array(new T[n]()),
 		_size(n)
 	{
